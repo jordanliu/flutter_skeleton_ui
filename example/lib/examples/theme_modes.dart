@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_skeletons/flutter_skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 
 class ThemeModesExamplePage extends StatefulWidget {
   @override

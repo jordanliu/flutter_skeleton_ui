@@ -7,7 +7,7 @@ A Flutter package for building custom skeleton widgets to mimic the page's layou
 ## Installation
 
 ```shell
-flutter pub add flutter_skeletons
+flutter pub add flutter_skeleton_ui
 ```
 
 ## Examples
@@ -190,4 +190,4 @@ ListView.builder(
 
 ## Issues and feedback
 
-For issues, please report [here](https://github.com/jordanliu/flutter_skeletons/issues). Contributions are welcome.
+For issues, please report [here](https://github.com/jordanliu/flutter_skeleton_ui/issues). Contributions are welcome.
