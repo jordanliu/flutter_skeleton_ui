@@ -190,4 +190,4 @@ ListView.builder(
 
 ## Issues and feedback
 
-For issues, please report [here](https://github.com/jordanliu/flutter_skeleton_ui/issues). Contributions are welcome.
+For issues, please report [here](https://github.com/jordanliu/flutter_skeletons_ui/issues). Contributions are welcome.

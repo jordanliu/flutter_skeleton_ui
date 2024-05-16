@@ -14,3 +14,8 @@
 ## [0.0.4] - 16.05.2024.
 
 - Compatibility fixes for Flutter v3.22.0
+-
+
+## [0.0.5] - 16.05.2024.
+
+- Update README.
