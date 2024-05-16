@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 class ListViewExample2Page extends StatefulWidget {
   @override
@@ -96,7 +96,7 @@ class _ListViewExample2PageState extends State<ListViewExample2Page> {
                     randomText(),
                     style: Theme.of(context)
                         .textTheme
-                        .headline6!
+                        .headlineMedium!
                         .copyWith(fontSize: 16),
                     maxLines: 1,
                   ),

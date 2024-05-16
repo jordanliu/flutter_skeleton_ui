@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 import 'widgets/skeleton_test_widget.dart';
 

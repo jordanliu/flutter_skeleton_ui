@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 class ListviewCardsExamplePage extends StatefulWidget {
   @override

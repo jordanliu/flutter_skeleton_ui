@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 class RtlExamplePage extends StatefulWidget {
   @override
@@ -99,7 +99,7 @@ class _RtlExamplePageState extends State<RtlExamplePage> {
                     randomText(),
                     style: Theme.of(context)
                         .textTheme
-                        .headline6!
+                        .headlineMedium!
                         .copyWith(fontSize: 16, fontWeight: FontWeight.w600),
                     maxLines: 1,
                   ),

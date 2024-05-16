@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 class ThemeModesExamplePage extends StatefulWidget {
   @override
@@ -150,7 +150,7 @@ class _ThemeModesExamplePageState extends State<ThemeModesExamplePage> {
                 children: [
                   Text(
                     "Lorem ipsum dolor sit amet.",
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.headlineMedium,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),

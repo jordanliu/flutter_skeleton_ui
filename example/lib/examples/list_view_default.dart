@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeletons/skeletons.dart';
 
 class ListViewExample1Page extends StatefulWidget {
   @override
@@ -56,7 +56,7 @@ class _ListViewExample1PageState extends State<ListViewExample1Page> {
                 children: [
                   Text(
                     "Lorem ipsum dolor sit amet.",
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.headlineMedium,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),

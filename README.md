@@ -1,25 +1,30 @@
-# Skeletons
+# Flutter Skeletons
+
+Clone of [skeletons](https://github.com/badjio/skeletons/)
 
 A Flutter package for building custom skeleton widgets to mimic the page's layout while loading.
 
+## Installation
+
+```shell
+flutter pub add flutter_skeletons
+```
+
 ## Examples
 
+| Items                    |                                   | ListView (Default)                             |
+| ------------------------ | --------------------------------- | ---------------------------------------------- |
+| ![items](gifs/items.gif) | ![paragraphs](gifs/paragraph.gif) | ![listview_default](gifs/listview_default.gif) |
 
-| Items |  | ListView (Default) |
-| ------------- | ------------- | ------------- |
-| ![items](gifs/items.gif)  | ![paragraphs](gifs/paragraph.gif)  | ![listview_default](gifs/listview_default.gif)  |
+| ListView (Custom)                            | ListView (Complex Cards)                  | SkeletonTheme                              |
+| -------------------------------------------- | ----------------------------------------- | ------------------------------------------ |
+| ![listview_custom](gifs/listview_custom.gif) | ![listview_cards](gifs/cards_example.gif) | ![skeleton_theme](gifs/skeleton_theme.gif) |
 
-| ListView (Custom) | ListView (Complex Cards) | SkeletonTheme  |
-| ------------- |  ------------- | ------------- |
-| ![listview_custom](gifs/listview_custom.gif)  | ![listview_cards](gifs/cards_example.gif) | ![skeleton_theme](gifs/skeleton_theme.gif)  |
-
-| Light/Dark modes | Right-To-Left  | Custom Shimmer |
-| ------------- | ------------- | ------------- |
-| ![light_dark_modes](gifs/light_dark_modes.gif)  | ![rtl](gifs/rtl.gif)  | ![custom_shimmer](gifs/custom_shimmer.gif)  |
-
+| Light/Dark modes                               | Right-To-Left        | Custom Shimmer                             |
+| ---------------------------------------------- | -------------------- | ------------------------------------------ |
+| ![light_dark_modes](gifs/light_dark_modes.gif) | ![rtl](gifs/rtl.gif) | ![custom_shimmer](gifs/custom_shimmer.gif) |
 
 All examples can be found here [examples](https://github.com/badjio/skeletons/tree/master/example/lib/examples).
-
 
 ## How To Use
 
@@ -33,19 +38,19 @@ Skeleton(
         skeleton: SkeletonListView(),
         child: Container(child: Center(child: Text("Content"))),
       )
- ```
+```
 
- or directly:
+or directly:
 
- ```dart
- Container(
-     child: _isLoading 
-     ? SkeletonListView() 
-     : Container(child: Center(
-                        child: Text("Content"))),
- )
+```dart
+Container(
+    child: _isLoading
+    ? SkeletonListView()
+    : Container(child: Center(
+                       child: Text("Content"))),
+)
 
- ```
+```
 
 a `SkeletonTheme` can be used to set the default configs for all skeleton descendants in the tree.
 
@@ -89,11 +94,10 @@ SkeletonTheme(
       ),
 ```
 
-
 ## More Customization:
 
-| ListView (Complex Cards) |
-| ------------- |
+| ListView (Complex Cards)                  |
+| ----------------------------------------- |
 | ![listview_cards](gifs/cards_example.gif) |
 
 for more complex shapes you can build your skeleton inside a `SkeletonItem` widget:
@@ -186,6 +190,4 @@ ListView.builder(
 
 ## Issues and feedback
 
-For issues, please report [here](https://github.com/badjio/skeletons/issues). Contributions are welcome.
-
-
+For issues, please report [here](https://github.com/jordanliu/flutter_skeletons/issues). Contributions are welcome.
