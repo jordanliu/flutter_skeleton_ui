@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_skeletons/skeletons.dart';
+import 'package:flutter_skeletons/flutter_skeletons.dart';
 
 class ItemsExamplePage extends StatelessWidget {
   const ItemsExamplePage({Key? key}) : super(key: key);
