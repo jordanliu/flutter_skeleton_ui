@@ -24,14 +24,14 @@ flutter pub add flutter_skeleton_ui
 | ---------------------------------------------- | -------------------- | ------------------------------------------ |
 | ![light_dark_modes](gifs/light_dark_modes.gif) | ![rtl](gifs/rtl.gif) | ![custom_shimmer](gifs/custom_shimmer.gif) |
 
-All examples can be found here [examples](https://github.com/badjio/skeletons/tree/master/example/lib/examples).
+All examples can be found here [examples](https://github.com/jordanliu/flutter_skeleton_ui/tree/master/example/lib/examples).
 
 ## How To Use
 
 Can be used by encapsulating the child widget in a Skeleton widget:
 
 ```dart
-import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 
 Skeleton(
         isLoading: _isLoading,
@@ -190,4 +190,4 @@ ListView.builder(
 
 ## Issues and feedback
 
-For issues, please report [here](https://github.com/jordanliu/flutter_skeletons_ui/issues). Contributions are welcome.
+For issues, please report [here](https://github.com/jordanliu/flutter_skeleton_ui/issues). Contributions are welcome.
