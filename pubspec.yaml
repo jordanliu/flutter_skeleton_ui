@@ -1,6 +1,6 @@
 name: flutter_skeleton_ui
 description: A Flutter package for building custom skeleton widgets to mimic the page's layout while loading.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/jordanliu/flutter_skeleton_ui
 
 environment:
