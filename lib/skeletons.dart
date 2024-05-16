@@ -1,4 +1,4 @@
-library skeletons;
+library flutter_skeletons;
 
 export './src/shimmer.dart';
 export './src/stylings.dart';
